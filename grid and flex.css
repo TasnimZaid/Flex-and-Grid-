@@ -1,49 +1,47 @@
-body{
-    /*height: 700px;
-    width: 100hv;*/
-    background-color: rgb(130, 224, 224);
+.body1{
+    background-color: #ACECEC;
+    width:100%;
+    height:800px;
     display: grid;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-.container{
-
-    
-    width: 70%;
-    height: 80%;
-    border: 1px solid rgb(185, 174, 144);
-    box-shadow:  20px 20px 20px rgb(122, 103, 43);
-    border-radius: 10%;
-    display: grid;
-    background-color: rgb(215, 213, 110);
-    grid-template-columns: 1;
-    grid-template-rows: 4;
-    justify-self: center;
-    align-self: center;
-    align-content: center;
     justify-content: center;
+    align-content: center;
+    font-size: medium;
 
 }
-
+.containerM{
+    background-color: #CFD28B;
+    box-shadow: 10px 10px 10px 10px #368e8ec2;
+    width: 450px;
+    height:500px;
+    border-radius: 50px;
+    display: grid;
+    justify-content: space-around;
+    align-content: space-around	;
+    
+    
+     
+}
 .User{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    
+    
 
-  margin-bottom: 10px;
-   border-bottom: 1px solid rgb(255, 255, 255);
-   display: grid;
-   grid-template-columns: 3fr 6fr 6fr ;
-   grid-template-rows: 2fr 2fr 2fr;
-   row-gap: 10px;
-   align-items: center;
-   overflow: hidden;
-   margin-top: 20px;
-
-   
 }
 
-.image{
-    width: 70px;
+hr{
+    width: 300px; 
+   background-color: black;
+}
+.User{
+    margin-right: 50px;
+}
+img{
+    width: 80px;
     border-radius: 50%;
 }
+
 
 
 .container1R{
