@@ -110,65 +110,95 @@ body{
 
 
 
-.container3{
-  
-  
+.container4 { 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap:10px;
-  grid-row-gap:10px
-  
-}
+  grid-template-columns: 100px 100px 100px 100px 100px 100px  ;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px ;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: rgb(163, 238, 238);
 
-.c{
-  background-color: aliceblue;
-  border: 0.5px solid black;
-}
+  width: 650px;
+  height: 550px ;
+  padding: 20px;
+  padding-top: 10px;
 
-.Header{
-  height: 100px ;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.Nav{
-  height: 400px;
-  width: 300px;
-  grid-column-start: 1;
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 3;
-
-}
-.Content{
-  height: 400px ;
-  width: 600px;
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
-
-  grid: flex;
-  flex-direction: column;
-  
-  
-}
-.image22{
-  height: 50px;
-  width: 50px;
-  border: 1px solid rgb(108, 37, 37);
-  justify-content: sp;
   
  
-}
-.Footer1{
-  height: 100px;
-  grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end:5;
+
 
 }
+
+.item{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.item1{
+  background-color: rgb(90, 146, 188);
+  grid-row-start:1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end:7 ;
+}
+.item2{
+  background-color:rgb(98, 242, 139) ;
+  
+  grid-column-start:1 ;
+  grid-column-end: 3;
+  grid-row-start:2 ;
+  grid-row-end:5 ;
+
+}
+.item3{
+  background-color: rgb(255, 153, 0);
+  
+  grid-column-start:3 ;
+  grid-column-end:7 ;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  display: flex;
+  justify-content: space-between;
+
+}
+.image3{
+  margin-right: 30px;
+  margin-bottom: 10px;
+  height: 80px;
+  width: 100px;
+  align-self: flex-end;
+  background-color: rgb(236, 247, 86);
+  display: grid;
+  align-content: center;
+  justify-content:center ;
+
+      
+
+}
+
+.image1{
+  
+
+}
+
+.image2{
+
+}
+
+.image3{
+
+}
+
+.item4{
+  background-color: rgb(90, 150, 188);
+  
+  grid-column-start:1 ;
+  grid-column-end:7 ;
+  grid-row-start: 5;
+  grid-row-end: 6;
+
+}
+
+
 
 
